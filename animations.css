@@ -1,0 +1,260 @@
+
+
+.pulse{
+background-color: blueviolet;
+}
+.zoom-in{
+background-color: azure;
+}
+.zoom-out{
+background-color: chartreuse;
+}
+
+ 
+.pulse{
+     
+    animation: pulse 2s ease infinite;
+}
+/* Animación de pulso que se hace pequeño y retorna a su tamaño*/
+@keyframes pulse
+ {
+    0%{
+        transform: scale(1);
+        opacity: 0.7;
+
+    }
+    50%{
+        transform: scale(0.5);
+
+        opacity: 1;
+
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 0.7;
+
+    }
+}
+
+/*Animación que hace zoom-in inicia pequeña aumenta su tamaño*/
+.zoom-in{
+     
+    animation: zoom-in 2s ease infinite;
+}
+
+@keyframes zoom-in
+ {
+    0%{
+        transform: scale(0.3);
+        opacity: 0.7;
+
+    }
+    50%{
+        transform: scale(1);
+        opacity: 0.7;
+
+    }
+
+    100%{
+        transform: scale(0.3);
+        opacity:0.7;
+
+    }
+}
+
+
+/*Animación que decrece el tamaño, inicia grande y se reduce*/
+.zoom-out{
+     
+    animation: zoom-out 2s ease infinite;
+}
+
+@keyframes zoom-out
+ {
+    0%{
+        transform: scale(1.5);
+        opacity:2;
+
+    }
+    50%{
+        transform: scale(0.5);
+        opacity: 1.5;
+
+    }
+
+    100%{
+        transform: scale(1.5);
+        opacity: 1;
+
+    }
+}
+
+/*Animación que gira el elemento*/
+.spin{
+    width: 150px;
+    height: 10px;
+    background: green;
+    animation: spin 0.2s linear infinite alternate;
+    
+    
+}
+
+@keyframes spin {
+
+    from {transform: rotate(0deg);}
+    to {transform: rotate(500deg);}
+    
+    
+} 
+
+
+/*codigo para triangulo */
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px  solid orange;
+    animation: triangulo 0.2s ease-in-out infinite alternate;
+    
+}
+
+@keyframes triangulo {
+
+    from {transform: translateY(0);}
+    to {transform: translateY(-140px);}
+    
+}
+
+/*codigo para cinta de imagen */
+.cintaInteractiva{
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px;
+    animation: triangulo 0.1s linear infinite;
+    
+}
+
+@keyframes cintaInteractiva {
+
+    from {transform: translateX(0);}
+    to {transform: translateX(150px);}
+    
+}
+
+.sin1,.sin2,.sin3,.sin4,.sin6,.sin7,.sin8,.sin9{
+    width: 30px;
+    height: 30px;
+    background: rgb(77, 0, 128);
+    animation: sin 0.2s linear infinite;
+    color: rgb(255, 0, 0);
+}
+
+@keyframes sin {
+
+    from {transform: rotate(0deg);}
+    to {transform: rotate(500deg);}
+    
+} 
+
+.sin1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(199, 202, 199);
+    animation: sin1 0.s linear infinite;
+    color: rgba(247, 38, 38, 0.6);
+}
+
+@keyframes sin1 {
+
+    from {transform: rotate(0deg);}
+    to {transform: rotate(200deg);}
+    
+} 
+
+.sin3{
+    width: 20px;
+    height: 200px;
+    background: rgb(128, 0, 0);
+    animation: sin10 0.4s linear infinite;
+    color: rgb(188, 229, 200);
+}
+
+@keyframes sin10 {
+
+    from {transform: rotate(0deg);}
+    to {transform: rotate(500deg);}
+    
+} 
+.sin4{
+    width: 30px;
+    height: 30px;
+    padding: 50PX;
+    background: rgb(184, 189, 172);
+    animation: sin11 0.s linear infinite;
+    color: rgb(102, 22, 252);
+}
+
+@keyframes sin11 {
+
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(500deg);}
+    
+} 
+
+.sin5{
+    width: 0;
+    height: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-top: 100px  solid orange;
+    animation: triangu 0.3s ease-in-out infinite alternate;
+    
+  
+
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px  solid orange;
+    animation: triangu 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes triangu{
+
+    from {transform: translateY(0);}
+    to {transform: translateY(-110px);}
+    
+}
+.sin6{
+width: 100px;
+width: 120px;
+background-color: chocolate;
+
+
+}
+.sin7{
+width: 100px;
+width: 120px;
+background-color: chartreuse;
+
+}
+
+.sin8{
+width: 100px;
+width: 120px;
+background-color: antiquewhite;
+
+}
+.sin9{
+width: 100px;
+width: 120px;
+background-color: rgb(2, 114, 114);
+
+}
+
+
+
