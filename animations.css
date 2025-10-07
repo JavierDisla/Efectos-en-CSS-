@@ -1,5 +1,6 @@
 
 
+
 .pulse{
 background-color: blueviolet;
 }
@@ -122,8 +123,8 @@ background-color: chartreuse;
 
 @keyframes triangulo {
 
-    from {transform: translateY(0);}
-    to {transform: translateY(-140px);}
+    from {transform: translatex(0);}
+    to {transform: translatex(-100px);}
     
 }
 
@@ -255,6 +256,7 @@ width: 120px;
 background-color: rgb(2, 114, 114);
 
 }
+
 
 
 
