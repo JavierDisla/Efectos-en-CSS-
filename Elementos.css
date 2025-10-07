@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .container{
   width: 100%;
  border-radius:50%;
@@ -13,14 +12,38 @@
  
 }
 
+.container:hover{
+    background-color: bisque;
+}
+
 
 section{
-    border: solid 2px;
-    padding: 5%;
-    margin: 50px;
+    
+    padding: 2%;
+    margin: 130px;
+    align-items: center;
+    justify-items: center;
+    
 }
  
 div{
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 10px;     
+    
+
+}
+ 
+.cajas{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    justify-content: center;
+    padding: 20px;
+    bottom: 350px;
+}
+
     padding: 20px;
     margin: 20px;
     width: 200px;
@@ -32,3 +55,4 @@ div{
 
 
  
+
